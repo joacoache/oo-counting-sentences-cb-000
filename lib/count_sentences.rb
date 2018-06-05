@@ -19,6 +19,7 @@ class String
     a.each do |b|
       if b.length == 0
         b.delete!
+      end  
     a.length
   end
 end
