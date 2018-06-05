@@ -16,14 +16,14 @@ class String
 
   def count_sentences
     a = self.split(/[,.?]+/)
-
+    a.delete!(a.length == 0)
     a.length
   end
 end
 
 
-    {|b| if b.length == 0 then delete!}
-    a.delete_if{|b| b.length == 0}
+#    {|b| if b.length == 0 then delete!}
+#    a.delete_if{|b| b.length == 0}
 
 
 #    a.each do |b|
