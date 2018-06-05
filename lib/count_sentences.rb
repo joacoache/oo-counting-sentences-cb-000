@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    a = self.split(/[,.?]+/)
+    a = self.split(/[!.?]+/)
     a.delete_if {|b| b == " "}
     a.count
   end
@@ -31,3 +31,5 @@ end
 #        a.delete!(b)
 #      end
 #    end
+
+#This, well, is a sentence. | This is too!! | And so is this, I think? | Woo..."
