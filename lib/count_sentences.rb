@@ -20,7 +20,7 @@ class String
       if b.length = 0
         a.delete!(b)
       end
-    end  
+    end
     a.length
   end
 end
