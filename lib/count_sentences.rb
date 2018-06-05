@@ -18,7 +18,7 @@ class String
     a = self.split(/[,.?]+/)
     a.each do |b|
       if b.length == 0
-        a.delete!
+        a.delete!(b)
       end
     a.length
   end
